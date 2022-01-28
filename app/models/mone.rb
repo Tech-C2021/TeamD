@@ -1,0 +1,2 @@
+class Mone < ApplicationRecord
+end

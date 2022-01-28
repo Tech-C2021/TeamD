@@ -1,0 +1,17 @@
+current directory: C:/Users/User/Desktop/ruby/test/vender/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220125-18628-ruplj1.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: C:/Users/User/Desktop/ruby/test/vender/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\= clean
+
+current directory: C:/Users/User/Desktop/ruby/test/vender/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\=
+generating strscan-x64-mingw32.def
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: C:/Users/User/Desktop/ruby/test/vender/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20220125-18628-p042wi

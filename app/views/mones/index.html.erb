@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+<% @elements.each do |ele| %>
+     <h4><%= ele.inner_text %></h4>
+<% end %>
+
+
+<h1>作品一覧</h1>
+
+<div id="mones">
+  <% @mones.each do |mone| %>
+    <%= render mone %>
+    <%= link_to "作品詳細", mone %>
+    <br>
+    
+  <% end %>
+</div>
+
+<%= link_to "新規登録", new_mone_path %>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @mone %>
+
+<div>
+  <%= link_to "編集", edit_mone_path(@mone) %> |
+  <%= link_to "戻る", mones_path %>
+
+  <%= button_to "削除", @mone, method: :delete %>
+</div>
